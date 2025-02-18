@@ -1,3 +1,23 @@
+# Arrancar el proyecto
+
+`npm install`
+`npm run dev`
+
+**endpoints que se pueden probar**
+
+`http://localhost:5196/auth/register` → mandar JSON en el body con:
+{
+"username": "TuUsuario",
+"password": "TuContraseña",
+"email": "TuEmail"
+}
+
+`http://localhost:5196/auth/register` → mandar JSON en el body con:
+{
+"username": "TuUsuario",
+"email": "TuEmail"
+}
+
 # Arquitectura del Sistema para la Aplicación de Oposiciones
 
 **Justificación de Decisiones Técnicas**
@@ -58,3 +78,11 @@ Escalabilidad: Compatible con microservicios y permite validaciones rápidas sin
 Seguridad: Tokens firmados con claves privadas.
 
 Integración: OAuth 2.0 permite autenticación mediante Google, Facebook, etc.
+
+```
+
+```
+
+```
+
+```
